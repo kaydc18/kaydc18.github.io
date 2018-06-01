@@ -42,24 +42,25 @@ for (var i = 0; i < filter.length; i++) {
 )};
 }
 
-var webDevInput = document.getElementById('filter1');
-var projects = document.getElementsByClassName('project');
-webDevInput.addEventListener('change', function() {
-console.log('changed!');
-  for (var k = 0; k <projects.length; k++) {
-    //does the porject have a data-catagriy === '1'
+// Get an individual input
+ var webDevInput = document.getElementById('filter1');
+ var projects = document.getElementsByClassName('project');
+ webDevInput.addEventListener('change', function() {
+   console.log('changed!');
+   for (var k = 0; k < projects.length; k++) {
+     // Does the project have a data-category === '1'
 
-var projectCatagory = projects[k].getAttribute('data-catagory');
-console.log(projectCatagory);
-  if (projectCatagory === '1' {
-    projects[k].classList.add('active');
-  }
-  else {
-    projects[k].classList.remove('active');
-  }
-  })
-  }
-});
+     var projectCategory = projects[k].getAttribute('data-category');
+     console.log(projectCategory);
+     if (projectCategory === '1') {
+       // It matches! Let's activate
+       projects[k].classList.add('active');
+     } else {
+       // No match -- remove the class!
+       projects[k].classList.remove('active');
+     }
+   }
+ });
 //if project doesn't have catagory remove active classList
 
 //if project does have catagory add active class
