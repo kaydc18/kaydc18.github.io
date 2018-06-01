@@ -29,18 +29,7 @@ openModal.classList.remove('open');
 }
 
 
-//add event listener to each filter
-var filter = document.getElementsByClassName('portfolio-filter');
-for (var i = 0; i < filter.length; i++) {
-  filter.addEventlistener('click', function (evt){
-   var filterId = this.getAttribute('filter');
-   var project = document.getElementById(filterId);
-   project.classList.add('active');
 
-
-
-)};
-}
 
 // Get an individual input
  var webDevInput = document.getElementById('filter1');
