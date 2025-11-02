@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tahoma:wght@400;700&display=swap');
-
 @theme {
   /* Colors */
 
@@ -19,26 +16,26 @@
   --color-white: #FFFFFF;
 
   /* Salmnon */
-  --color-salmon-900: EE7465;
-  --color-salmon-800: F08274;
-  --color-salmon-700: F29388;
-  --color-salmon-600: F4A399;
-  --color-salmon-500: F6B3AB;
-  --color-salmon-400: F8C6C0;
-  --color-salmon-300: FAD4D0;
-  --color-salmon-200: FCE5E3;
-  --color-salmon-100: FEF6F5;
+  --color-salmon-900: #EE7465;
+  --color-salmon-800: #F08274;
+  --color-salmon-700: #F29388;
+  --color-salmon-600: #F4A399;
+  --color-salmon-500: #F6B3AB;
+  --color-salmon-400: #F8C6C0;
+  --color-salmon-300: #FAD4D0;
+  --color-salmon-200: #FCE5E3;
+  --color-salmon-100: #FEF6F5;
 
-  /* Fuschia */
-  --color-fuschia-900: #9E1361;
-  --color-fuschia-800: #AA2F74;
-  --color-fuschia-700: #B54B87;
-  --color-fuschia-600: #C06698;
-  --color-fuschia-500: #CB80AB;
-  --color-fuschia-400: #D79DBD;
-  --color-fuschia-300: #E2B7CF;
-  --color-fuschia-200: #EDD3E2;
-  --color-fuschia-100: #F9F1F6;
+  /* fuchsia */
+  --color-fuchsia-900: #9E1361;
+  --color-fuchsia-800: #AA2F74;
+  --color-fuchsia-700: #B54B87;
+  --color-fuchsia-600: #C06698;
+  --color-fuchsia-500: #CB80AB;
+  --color-fuchsia-400: #D79DBD;
+  --color-fuchsia-300: #E2B7CF;
+  --color-fuchsia-200: #EDD3E2;
+  --color-fuchsia-100: #F9F1F6;
 
   /* Avocado */
   --color-avocado-900: #92B357;
@@ -52,8 +49,8 @@
   --color-avocado-100: #F9FBF6;
 
   /* Typography */
-  --font-sans: 'Tahoma', sans-serif;
-  --font-serif: 'Arvo', serif;
+  --font-family-sans: 'Tahoma', sans-serif;
+  --font-family-serif: 'Arvo', serif;
 
   --font-size-sm: 0.75rem; /* 12px */
   --font-size-base: 1rem; /* 16px */
@@ -88,4 +85,8 @@
   --border-radius-xl: 2rem; /* 32px */
   --border-radius-2xl: 8rem; /* 128px */
   --border-radius-3xl: 22.5rem; /* 360px */
+
+  /* Drop Shadows */
+  --drop-shadow-primary: 2px 2px 0 rgb(192, 102, 152);
+  --drop-shadow-secondary: 2px 2px 0 rgb(158, 19, 97);
 }
