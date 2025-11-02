@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tahoma:wght@400;700&display=swap');
+
+@theme {
+  /* Colors */
+
+  /* Gray */
+  --color-gray-900: #0D0D0D;
+  --color-gray-800: #2A2A2A;
+  --color-gray-700: #484848;
+  --color-gray-600: #656565;
+  --color-gray-500: #808080;
+  --color-gray-400: #9D9D9D;
+  --color-gray-300: #B8B8B8;
+  --color-gray-200: #D4D4D4;
+  --color-gray-100: #F1F1F1;
+
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+
+  /* Salmnon */
+  --color-salmon-900: EE7465;
+  --color-salmon-800: F08274;
+  --color-salmon-700: F29388;
+  --color-salmon-600: F4A399;
+  --color-salmon-500: F6B3AB;
+  --color-salmon-400: F8C6C0;
+  --color-salmon-300: FAD4D0;
+  --color-salmon-200: FCE5E3;
+  --color-salmon-100: FEF6F5;
+
+  /* Fuschia */
+  --color-fuschia-900: #9E1361;
+  --color-fuschia-800: #AA2F74;
+  --color-fuschia-700: #B54B87;
+  --color-fuschia-600: #C06698;
+  --color-fuschia-500: #CB80AB;
+  --color-fuschia-400: #D79DBD;
+  --color-fuschia-300: #E2B7CF;
+  --color-fuschia-200: #EDD3E2;
+  --color-fuschia-100: #F9F1F6;
+
+  /* Avocado */
+  --color-avocado-900: #92B357;
+  --color-avocado-800: #A1BE6E;
+  --color-avocado-700: #ACC67F;
+  --color-avocado-600: #B9CF93;
+  --color-avocado-500: #C6D8A8;
+  --color-avocado-400: #D3E0BA;
+  --color-avocado-300: #DFE9CE;
+  --color-avocado-200: #ECF2E1;
+  --color-avocado-100: #F9FBF6;
+
+  /* Typography */
+  --font-sans: 'Tahoma', sans-serif;
+  --font-serif: 'Arvo', serif;
+
+  --font-size-sm: 0.75rem; /* 12px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
+  --font-size-4xl: 2.25rem; /* 36px */
+  --font-size-5xl: 3rem; /* 48px */
+
+  /* Spacing */
+  --spacing-0: 0;
+  --spacing-0\.25: 0.125rem; /* 2px */
+  --spacing-0\.5: 0.25rem; /* 4px */
+  --spacing-1: 0.5rem; /* 8px */
+  --spacing-1\.5: 0.75rem; /* 12px */
+  --spacing-2: 1rem; /* 16px */
+  --spacing-2\.5: 1.25rem; /* 20px */
+  --spacing-3: 1.5rem; /* 24px */
+  --spacing-4: 2rem; /* 32px */
+  --spacing-5: 3rem; /* 48px */
+  --spacing-6: 4rem; /* 64px */
+  --spacing-8: 6rem; /* 96px */
+  --spacing-10: 8rem; /* 128px */
+
+  /* Border Radius */
+  --border-radius-none: 0;
+  --border-radius-xsm: 0.125rem; /* 2px */
+  --border-radius-sm: 0.25rem; /* 4px */
+  --border-radius-md: 0.5rem; /* 8px */
+  --border-radius-lg: 1rem; /* 16px */
+  --border-radius-xl: 2rem; /* 32px */
+  --border-radius-2xl: 8rem; /* 128px */
+  --border-radius-3xl: 22.5rem; /* 360px */
+}
