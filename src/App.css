@@ -10,11 +10,6 @@ body {
   color: var(--color-gray-900);
 }
 
-a {
-  color: var(--color-fuchsia-900);
-  text-decoration: underline;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-serif);
   font-weight: var(--font-weight-regular);
@@ -35,3 +30,4 @@ h3 {
 h4 {
   font-size: var(--font-size-base);
 }
+

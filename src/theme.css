@@ -49,8 +49,8 @@
   --color-avocado-100: #F9FBF6;
 
   /* Typography */
-  --font-family-sans: 'Tahoma', sans-serif;
-  --font-family-serif: 'Arvo', serif;
+  --font-family-sans: 'Tahoma', sans-serif; /* Primary Font */
+  --font-family-serif: 'Arvo', serif; /* Headings Font */
 
   --font-size-sm: 0.75rem; /* 12px */
   --font-size-base: 1rem; /* 16px */
