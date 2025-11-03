@@ -5,10 +5,10 @@ const projectsData = [
     summary: "Collaborated with designer and architect to modernize forms and add flexible layout options.",
     details: {
       overview: "I joined a cross-functional initiative to refresh our legacy Rails forms and migrate them to React. The goal was to create a more flexible and user-friendly form experience for administrators.",
-      problem: "Our existing forms were rigid, slow, and inaccessible. They were built on outdated Rails views, limiting layout options and making it difficult to support multi-column or dynamic form elements.",
-      approach: "Working closely with our designer and system architect, I researched form layout strategies, wireframed ideas, and translated architectural goals into early visual sketches. I also reviewed accessibility best practices for focus order, field labeling, and validation patterns.",
-      solution: "We rebuilt the form system using React, adding a column-based layout for improved readability and responsiveness. I also documented accessibility requirements for developers and collaborated with design to ensure visual consistency across form types.",
-      impact: "The new forms are faster, easier to navigate, and more flexible to maintain. The refresh improved developer efficiency and accessibility compliance, setting the foundation for future UI modernization.",
+      problem: "Our existing forms were rigid and difficult to build. They were built on outdated Rails views, limiting layout options and making it difficult to support multi-column or dynamic form elements.",
+      approach: "Working closely with our designer and system architect, I researched form layout strategies, and translated architectural goals into Figma designs for our designer to iterate on. I also reviewed accessibility best practices for field labeling, and validation patterns.",
+      solution: "We are currently adding a column-based layout for improved readability and responsiveness. I am also documenting accessibility requirements for developers and collaborating with design to ensure visual consistency across form types.",
+      impact: "Still in development, the new form system promises to improve usability for administrators and streamline form creation for developers. The flexible layout options enhance clarity, and the focus on accessibility ensures a better experience for all users.",
       images: [
         "/projects/forms_refresh/formsrefresh1.png",
         "/projects/forms_refresh/formsrefresh2.png",
