@@ -1,8 +1,7 @@
-import React from 'react';
-import Button from './Button.jsx';
+import React from "react";
+import Button from "./Button.jsx";
 
 export default function HeroSection({ title, subtitle, description, button }) {
-
   let emphasizeText;
   if (title && subtitle) {
     emphasizeText = "text-fuchsia-900";
@@ -24,7 +23,7 @@ export default function HeroSection({ title, subtitle, description, button }) {
         />
       </div>
     );
-  }
+  };
 
   return (
     <section className="flex flex-col items-start justify-start gap-1">
