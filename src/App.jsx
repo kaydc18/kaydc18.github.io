@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="grid grid-cols-12 h-screen overflow-hidden">
       <SidebarNav />
-      <main className="lg:col-span-10 md:col-span-9 col-span-12 bg-salmon-100 overflow-y-auto">
-        <div className="mx-auto max-w-5xl h-6 md:mb-14 mb-1 flex justify-end items-center gap-4 p-2">
+      <main className="lg:col-span-10 col-span-12 bg-salmon-100 overflow-y-auto">
+        <div className="mx-auto max-w-5xl h-6 lg:mb-14 mb-1 flex justify-end items-center gap-4 p-2">
           <Button
             variant="secondary"
             buttonText="click here for github profile"

@@ -37,7 +37,7 @@ export default function SidebarNav() {
 
   return (
     <>
-      <div className="md:hidden fixed top-1 left-1 z-20">
+      <div className="lg:hidden fixed top-1 left-1 z-20">
         <Button
           onClick={handleToggle}
           variant="primary"
@@ -47,7 +47,7 @@ export default function SidebarNav() {
       </div>
 
       <div
-        className={`lg:col-span-2 md:col-span-3 col-span-12 bg-salmon-900 z-10 p-4 gap-5 flex flex-col md:items-start md:justify-start items-start justify-center md:relative md:translate-x-0
+        className={`lg:col-span-2 col-span-12 bg-salmon-900 z-10 p-4 gap-5 flex flex-col lg:items-start lg:justify-start items-start justify-center lg:relative lg:translate-x-0
         ${isOpen ? SIDEBAR_VARIANTS.open : SIDEBAR_VARIANTS.closed} 
         transition-transform duration-300 ease-in-out`}
       >
@@ -61,7 +61,7 @@ export default function SidebarNav() {
 
       {isOpen && (
         <div
-          className="md:hidden fixed inset-0 bg-black bg-opacity-50 z-5"
+          className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-5"
           onClick={() => setIsOpen(false)}
         />
       )}
