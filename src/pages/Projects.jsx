@@ -23,8 +23,10 @@ const renderProjects = (projects, expandedProject, toggleProject) => {
           iconLocation="right"
         />
       </div>
-      <div
-        className={`mt-2 flex flex-col justify-start gap-2 ${expandedProject === index ? "block" : "hidden"}`}
+      <div className={`mt-2 flex flex-col justify-start gap-2 transition-all duration-600 ease-in-out overflow-hidden
+          ${expandedProject === index 
+            ? "max-h-[2000px] opacity-100" 
+            : "max-h-0 opacity-0"}`}
       >
         <h3 className="text-xl font-family-serif mb-1">Overview</h3>
         <p>{project.details.overview}</p>
@@ -36,7 +38,7 @@ const renderProjects = (projects, expandedProject, toggleProject) => {
         <p>{project.details.solution}</p>
         <h3 className="text-xl font-family-serif mb-1">Impact</h3>
         <p>{project.details.impact}</p>
-        <div className="mt-2 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="mt-2 grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
           {project.details.images &&
             project.details.images.map((image, imageIndex) => (
               <div key={imageIndex}>
